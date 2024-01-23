@@ -1,0 +1,93 @@
+.black-box{
+    height: 110px;
+    width: 60rem;
+    background-color: black;
+    position: relative;
+    color: white;
+    right: 270px;
+    top: 400px;
+    border-radius: 10px;
+    z-index:1;
+    text-align: center;
+}
+.arrow{
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    top:500px;
+    right: 1200px;
+}
+@media screen and (max-width:640px){
+    .black-box{
+        display: none;
+        width: 390px;
+        margin-left: 130px;
+        position: relative;
+       
+    }
+    
+}
+.facilities-1{
+    background-image: url("Resources/Images/Group 9 (3).png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-weight: 800;
+    font-size: 22px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30%;
+    line-height: 15vh;
+}
+.facilities-3{
+    background-image: url("Resources/Images/Group 9 (1).png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-weight: 800;
+    font-size: 22px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30%;
+    line-height: 15vh;
+}
+.facilities-2{
+    background-image: url("Resources/Images/Group 9 (2).png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-weight: 800;
+    font-size: 22px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30%;
+    line-height: 15vh;
+}
+.facilities-4{
+    background-image: url("Resources/Images/Group 9.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-weight: 800;
+    font-size: 22px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30%;
+    line-height: 15vh;
+}

@@ -5,10 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey-Main</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <header>
+        <div class="navbar bg-base-100 justify-between">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Parent</a>
+                  </li>
+                  <li><a>About</a></li>
+                  <li><a>contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl ml-32 font-extrabold">Hokey<span class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal">
+                <li><a class="text-[#FF4240]">Home</a></li>
+                <li><a>Abount</a></li>
+                <li><a>Page</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contant</a></li>
+              </ul>
+             
+            </div>
+            <div> <p class="mr-6"><i class="fa-solid fa-magnifying-glass"></i></p><p><a class="btn bg-[#FF4240] text-white mr-32">Get Ticket</a></p></div>
+          </div>
+    </header>
+    <main>
+      <!--Banner section-->
+      <div class="banner lg:mt-20 ml-40  lg:flex justify-center">
+       <img src="Resources/Images/1.png">
+       <div class="black-box">
+        <p class="mt-3">Meet all the heroes from the field</p>
+        <p class="text-FFFFFF text-sm">In this web page you will get all heroes info.</p>
+      </div>
+      <div class="arrow">
+       <div> <p><i class="fa-solid fa-arrow-left"></i></p></div>
+       <div> <p><i class="fa-solid fa-arrow-right"></i></p></div>
+      </div>
+      </div> 
+     <!--Professional hockey club section-->
+     <div class=" mx-40 mt-20 h-40 border-dashed border-2 border-y-[grey] border-x-[transparent] flex flex-col text-center pt-10">
+      <p class="text-4xl font-bold">Professional Hockeys Club</p>
+      <p class="pt-5">It provide you professional Hockey club info</p>
+     </div>
+      <!--Professional hockey club section End-->
+      <!--Facilities start-->
+      <div class=" h-60 mt-20 mx-40 grid grid-cols-4 text-black gap-3">
+        <div class="  facilities-1 bg-[bg-url('Resources/Images/Group 9 (3).png')] bg-cover ">87%
+          <p>Prayer Facility</p>
+        </div>
+        <div class="facilities-2 bg-[url('Resources/Images/Group 9 (2).png')] bg-cover text-black">95%
+          <p>Experienced Coach</p>
+        </div>
+        <div class="facilities-3 bg-[url('Resources/Images/Group 9 (1).png')] bg-cover">90%
+          <p>Senior Player</p>
+        </div>
+        <div class="facilities-4 bg-[url('Resources/Images/Group 9.png')] bg-cover">80%
+          <p>Training Ground</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
