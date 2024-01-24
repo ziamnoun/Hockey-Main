@@ -43,11 +43,15 @@
     </header>
     <main>
       <!--Banner section-->
-      <div class="banner lg:mt-20 ml-40  lg:flex justify-center">
+      <div class="banner relative flex flex-col gap-5 mx-10 lg:mt-20 lg:ml-40  lg:flex justify-center">
        <img src="Resources/Images/1.png">
-       <div class="black-box">
+       <div class="black-box absolute bottom-[20%] left-[50%] rounded-xl">
         <p class="mt-3">Meet all the heroes from the field</p>
-        <p class="text-FFFFFF text-sm">In this web page you will get all heroes info.</p>
+        <p class="text-[#131318 ] text-sm">In this web page you will get all heroes info.</p>
+      </div>
+      <div class="bg-black text-white mx-15 rounded-xl text-center lg:hidden">
+        <p class="mt-3">Meet all the heroes from the field</p>
+        <p class="text-[#131318 ] text-sm">In this web page you will get all heroes info.</p>
       </div>
       <div class="arrow">
        <div> <p><i class="fa-solid fa-arrow-left"></i></p></div>
@@ -55,26 +59,44 @@
       </div>
       </div> 
      <!--Professional hockey club section-->
-     <div class=" mx-40 mt-20 h-40 border-dashed border-2 border-y-[grey] border-x-[transparent] flex flex-col text-center pt-10">
-      <p class="text-4xl font-bold">Professional Hockeys Club</p>
-      <p class="pt-5">It provide you professional Hockey club info</p>
+     <div class=" mx-20 mt-10 lg:mx-40 lg:mt-20 h-40 border-dashed border-2 border-y-[grey] border-x-[transparent] flex flex-col text-center pt-10">
+      <p class="text-xl lg:text-4xl font-bold">Professional Hockeys Club</p>
+      <p class="pt-2 lg:pt-5">It provide you professional Hockey club info</p>
      </div>
       <!--Professional hockey club section End-->
       <!--Facilities start-->
-      <div class=" h-60 mt-20 mx-40 grid grid-cols-4 text-black gap-3">
-        <div class="  facilities-1 bg-[bg-url('Resources/Images/Group 9 (3).png')] bg-cover ">87%
-          <p>Prayer Facility</p>
-        </div>
-        <div class="facilities-2 bg-[url('Resources/Images/Group 9 (2).png')] bg-cover text-black">95%
-          <p>Experienced Coach</p>
-        </div>
-        <div class="facilities-3 bg-[url('Resources/Images/Group 9 (1).png')] bg-cover">90%
-          <p>Senior Player</p>
-        </div>
-        <div class="facilities-4 bg-[url('Resources/Images/Group 9.png')] bg-cover">80%
-          <p>Training Ground</p>
-        </div>
+     <div class="grid grid-rows-4 gap-5 mt-55 mx-40 lg:mt-20 md:mx-40 lg:grid-cols-4">
+      <div class="facilities-1 relative">
+        <div class="absolute top-[15%] left-[36%] lg:top-[25%] lg:left-[16%] text-xl font-extrabold">87%</div>
+        <img src="Resources/Images/Group 9 (3).png">
+        <p class=" text-xl font-extrabold text-justify">Prayer Facility</p>
+          <p class="text-[#131318]">You will get here hight class player facilities.</p>
       </div>
+      <div class="facilities-2 relative">
+        <div class="absolute top-[15%] left-[36%] lg:top-[25%] lg:left-[16%] text-xl font-extrabold">95%</div>
+        <img src="Resources/Images/Group 9 (2).png">
+        <p class="text-xl font-extrabold text-justify">Experienced Coach</p>
+        <p class="text-[#131318 ]">You will get here high valuable experience coach</p>
+      </div>
+      <div class="facilities-3 relative">
+        <div class="absolute top-[15%] left-[36%] lg:top-[25%] lg:left-[16%] text-xl font-extrabold">90%</div>
+        <img src="Resources/Images/Group 9 (1).png">
+        <p class="text-xl font-extrabold text-justify">Senior Player</p>
+        <p class="text-[#131318 ]">This team is combination of senior and junior player</p>
+      </div>
+      <div class="facilities-4 relative">
+        <div class="absolute top-[15%] left-[36%] lg:top-[25%] lg:left-[16%] text-xl font-extrabold">80%</div>
+        <img src="Resources/Images/Group 9.png">
+        <p class="text-xl font-extrabold text-justify">Training Ground</p>
+        <p class="text-[#131318 ]">We have world class Training ground.</p>
+      </div>
+     </div>
+      <!--Facilities End-->
+      <!--Programme Section-->
+      <div class=" mx-20 mt-2 lg:mx-40 lg:mt-0 border-dashed border-2 border-y-[grey] border-x-[transparent] flex flex-col text-center pt-10">
+        <p class="text-xl lg:text-4xl font-bold">Professional Hockeys Club</p>
+        <p class="pt-2 lg:pt-5">In our club we organize many weekly, monthly and yearly programme.</p>
+       </div>
     </main>
     <footer>
 
